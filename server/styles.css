@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./1416.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+.button-baza {
+    background-color: #e74c3c;
+    color: #ffffff;
+    margin-right: 1050px;
+    margin-top: 390px;
+    font-size: 23px;
+}
+
+.button-server {
+    background-color:  #3498db;
+    color: #ffffff;
+    font-size: 23px;
+    
+}
+
+.button-container {
+    flex-direction: column;
+    align-items: center;
+}
